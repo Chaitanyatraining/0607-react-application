@@ -1,23 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import Stylings from './Stylings';
+import FuncComp from './Components/FuncComp';
+import ClassComp from './Components/ClassComp';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import ListsandKeys from './Components/ListsandKeys';
+import Users from './Components/Users';
+import Pagination from './Components/Pagination/Pagination';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Stylings /> */}
+      {/* <FuncComp courseName="ReactJs" courseDuration="3 Months" /> */}
+      {/* <ClassComp /> */}
+      {/* <ListsandKeys /> */}
+      {/* <Users /> */}
+      <Pagination />
     </div>
   );
 }
