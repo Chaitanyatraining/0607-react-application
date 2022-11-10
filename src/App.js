@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ListsandKeys from './Components/ListsandKeys';
 import Users from './Components/Users';
 import Pagination from './Components/Pagination/Pagination';
+import Contactus from './Components/contactus/Contactus';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <ClassComp /> */}
       {/* <ListsandKeys /> */}
       {/* <Users /> */}
-      <Pagination />
+      {/* <Pagination /> */}
+      <Contactus />
     </div>
   );
 }
