@@ -8,17 +8,21 @@ import ListsandKeys from './Components/ListsandKeys';
 import Users from './Components/Users';
 import Pagination from './Components/Pagination/Pagination';
 import Contactus from './Components/contactus/Contactus';
+import Header from './Components/header/Header';
+import Routing from './Components/Routing';
 
 function App() {
   return (
     <div className="App">
+      <Header />
+      <Routing />
       {/* <Stylings /> */}
       {/* <FuncComp courseName="ReactJs" courseDuration="3 Months" /> */}
       {/* <ClassComp /> */}
       {/* <ListsandKeys /> */}
       {/* <Users /> */}
       {/* <Pagination /> */}
-      <Contactus />
+      {/* <Contactus /> */}
     </div>
   );
 }
