@@ -24,6 +24,15 @@ function Header() {
         <li class="nav-item">
           <Link to="contactus" class="nav-link">contactus</Link>
         </li>
+
+        <li class="nav-item">
+          <Link to="usestate" class="nav-link">useState</Link>
+        </li>
+
+        <li class="nav-item">
+          <Link to="useeffect" class="nav-link">useeffecthook</Link>
+        </li>
+        
         <li class="nav-item">
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
         </li>
